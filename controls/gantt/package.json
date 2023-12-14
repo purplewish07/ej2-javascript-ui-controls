@@ -22,22 +22,21 @@
 		"@syncfusion/ej2-popups": "*",
 		"@syncfusion/ej2-richtexteditor": "*",
 		"@syncfusion/ej2-svg-base": "*",
-		"@syncfusion/ej2-treegrid": "*"
+		"@syncfusion/ej2-treegrid": "*",
+		"sass": "^1.33.0"
 	},
 	"devDependencies": {
 		"@types/chai": "^3.4.28",
 		"@types/es6-promise": "0.0.28",
 		"@types/jasmine": "2.8.9",
 		"@types/jasmine-ajax": "^3.1.27",
-		"@types/requirejs": "^2.1.26",
 		"@types/node": "10.14.0",
+		"@types/requirejs": "^2.1.26",
+		"canteen": "^1.0.5",
 		"es6-promise": "^3.2.1",
 		"gulp": "^3.9.1",
-		"gulp-sass": "^3.1.0",
+		"gulp-sass": "^4.0.0",
 		"gulp-typescript": "^3.1.6",
-		"requirejs": "^2.3.3",
-		"typescript": "3.3.1",
-		"canteen": "^1.0.5",
 		"jasmine-ajax": "^3.3.1",
 		"jasmine-core": "^2.6.1",
 		"karma": "^1.7.0",
@@ -48,7 +47,9 @@
 		"karma-jasmine-ajax": "^0.1.13",
 		"karma-requirejs": "^1.1.0",
 		"nedb": "^1.8.0",
-		"simple-odata-server": "^0.3.1"
+		"requirejs": "^2.3.3",
+		"simple-odata-server": "^0.3.1",
+		"typescript": "3.3.1"
 	},
 	"keywords": [
 		"ej2",

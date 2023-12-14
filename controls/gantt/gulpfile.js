@@ -25,8 +25,11 @@ gulp.task('scripts', function(done) {
 /**
  * Compile styles
  */
+var sass = require('gulp-sass');
+var dartSass = require('sass');
+sass.compiler = dartSass;
 gulp.task('styles', function() {
-    var sass = require('gulp-sass');
+    // var sass = require('gulp-sass');
     return gulp.src(['./**/*.scss', '!./node_modules/**/*.scss'], { base: './' })
         .pipe(sass({
             outputStyle: 'expanded',
